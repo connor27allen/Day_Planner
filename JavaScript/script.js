@@ -1,33 +1,4 @@
-// $(function () {
-//     var theTimeBlocks = $('.time-block');
 
-//     theTimeBlocks.addClass('past');
-
-//     theTimeBlocks.each(function() {
-//         var theTimeBlock = $(this);
-
-//         var theTimeBlockHour = theTimeBlock.attr('id').split('-')[1];
-//         var theCurrentHour = dayjs().hour;
-
-//         console.log()
-//         // if ( currentHour == 9) {
-//         //     console.log('yep');
-//         // }
-//     })
-
-//     var buttons = $('.time-block button');
-
-//     function storeTheEvent() {
-//         var button = $(this);
-//         var txtArea = button.prev();
-//         var parentDiv = button.parent();
-//         var id = parentDiv.attr('id');
-
-//         console.log(id);
-//     }
-
-//     buttons.click(storeTheEvent)
-// });
 
 const localeSettings = {};
 dayjs.locale(localeSettings);
