@@ -4,7 +4,7 @@ const localeSettings = {};
 dayjs.locale(localeSettings);
 
 $(function () {
-    const currentHour = dayjs().format('H');
+    const currentHour = dayjs().format('H'); 
 
     function hourlyColor() {
         $('.time-block').each(function() {
@@ -33,6 +33,7 @@ $(function () {
             } else {
                 $(this).removeClass('past present').addClass('future');
             }
+            console.log(this.id);
         });
     }
 
